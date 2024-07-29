@@ -1,0 +1,146 @@
+<!-- Doctype: tipo de contenido, en este caso HTML -->
+<!DOCTYPE html>
+<!-- html: es la etiqueta principal -->
+<!-- lang: es para cambiar el idioma de la página -->
+<html lang="es">
+<!-- head: Cabeza de la página, que contiene las configuraciones. -->
+<!-- describir la página, el título, conectar archivos -->
+
+<head>
+    <!-- Codificación de la página-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título que va en la pestaña de mi página.-->
+    <title>Mi primer página</title>
+
+    <!-- <style>
+        body {
+            background-color: hotpink;
+            color: darkblue;
+        }
+
+        p {
+            color: black;
+        }
+    </style> -->
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+
+<!-- body: cuerpo de la página, lo visible.-->
+<!-- <body style="background-color: hotpink;"> -->
+
+<body>
+
+
+    <header>
+        <a href="https://tecnolochicas.mx/" target="_blank">
+            <img id="logo" src="https://tecnolochicas.mx/public/images/tecnolochicas-logo.png"
+                alt="logo technolochicas">
+        </a>
+
+        <ul id="navegacion">
+            <li><a href="#gatito">Gatito</a></li>
+            <li><a href="#perrito">Perrito</a></li>
+            <li><a href="#gif-gatito">GIF</a></li>
+            <li><a href="https://tecnolochicas.mx/" target="_blank">Technolochicas</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <h1 class="texto-centrado">Hola Mundo! (°/o°)/</h1>
+
+        <h4 class="texto-centrado">Conoce a mis mascotas</h4>
+        <div class="texto-centrado">
+            <p class="mascota texto-centrado inline-block">
+                Ronroneo suave,
+                Pelaje en mi mano se enreda,
+                Amor incondicional.
+                Mis mascotas son especiales.
+            </p>
+        </div>
+
+        <!-- <h2>Hola Mundo! (°/o°)/</h2>
+        <h3>Hola Mundo! (°/o°)/</h3>
+        <h4>Hola Mundo! (°/o°)/</h4>
+        <h5>Hola Mundo! (°/o°)/</h5>
+        <h6>Hola Mundo! (°/o°)/</h6> -->
+
+        <!-- <a href="#gatito">Gatito</a>
+
+        <a href="https://tecnolochicas.mx/" target="_blank">
+            <button>Soy un botón</button>
+        </a>
+
+        <a href="https://tecnolochicas.mx/" target="_blank">
+            Technolochicas
+        </a> -->
+
+        <h2 id="gatito" class="texto-centrado">Gatitos</h2>
+
+        <p>
+            Los gatos, criaturas enigmáticas y cautivadoras, han compartido nuestros hogares y corazones durante
+            milenios. Su elegante andar, sus ojos brillantes y su ronroneo hipnótico nos han conquistado por completo.
+            Estos felinos independientes poseen una personalidad única, a veces distantes y otras afectuosas, que los
+            hace aún más fascinantes. Son cazadores natos, dotados de agilidad y sigilo, que mantienen a raya a los
+            roedores y nos entretienen con sus acrobacias. Pero también son maestros del descanso, capaces de dormir
+            durante horas en los lugares más insospechados, irradiando una paz contagiosa. Los gatos son compañeros
+            leales, que nos ofrecen su amor incondicional y nos brindan momentos de alegría y ternura. Su presencia en
+            nuestras vidas nos enriquece y nos recuerda la importancia de apreciar los pequeños placeres cotidianos.
+        </p>
+
+        <p class="texto-centrado">
+            <img class="mascota"
+                src="https://img.freepik.com/foto-gratis/adorable-ilustracion-gatitos-jugando-bosque-generative-ai_260559-483.jpg"
+                alt="Imagen de gatito">
+        </p>
+
+        <p>
+            Los gatos son los seres más adorables mientras no te den un zarpazo.
+        </p>
+
+        <h4>Lista de mis gatos</h4>
+        <ol>
+            <li>Gruñiz</li>
+            <li>Trigrillo - Guero</li>
+            <li>Bowie</li>
+            <li>Zoro</li>
+        </ol>
+
+        <h2 id="perrito" class="texto-centrado">Perritos</h2>
+
+        <p>Los perros, fieles compañeros y amigos incondicionales, han ocupado un lugar especial en nuestros corazones
+            desde tiempos inmemoriales. Su lealtad inquebrantable, su entusiasmo desbordante y su capacidad para amar
+            sin límites los convierten en los mejores amigos del hombre. Estos nobles animales nos ofrecen su compañía
+            constante, nos protegen con valentía y nos brindan momentos de alegría y diversión. Son expertos en
+            interpretar nuestras emociones, consolándonos en los momentos difíciles y celebrando nuestros triunfos con
+            entusiasmo. Los perros son compañeros de aventuras, siempre dispuestos a acompañarnos en caminatas, juegos y
+            exploraciones. Su energía contagiosa nos anima a mantenernos activos y a disfrutar de la naturaleza. Pero
+            también son maestros del confort, capaces de acurrucarse a nuestro lado y brindarnos calor y afecto. Los
+            perros son seres excepcionales que nos enseñan el verdadero significado del amor, la lealtad y la amistad.
+            Su presencia en nuestras vidas nos enriquece y nos recuerda la importancia de valorar cada momento
+            compartido.
+        </p>
+        <p class="texto-centrado">
+            <img class="mascota" src="imagenes/perro.jpg" alt="Imagen de perrito">
+        </p>
+
+        <p>
+            Los perritos son los seres más nobles que conozco hasta que ven un plato de comida en la mesa.
+        </p>
+
+        <p class="texto-centrado">
+            <img id="gif-gatito" class="mascota" src="imagenes/cat.gif" alt="Gif Gatito Saludando">
+        </p>
+
+        <p> Gracias por visitarnos!</p>
+    </main>
+
+    <footer>
+        <h5>Hecho por Dani <b>Technolochicas PRO</b></h5>
+        <h6>
+            <a href="contacto.html">Contacto</a>
+        </h6>
+    </footer>
+</body>
+
+</html>

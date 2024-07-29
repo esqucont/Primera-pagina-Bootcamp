@@ -1,0 +1,93 @@
+/* Selector de etiqueta:
+
+Vamos a seleccionar el elemento 
+por su nombre y va a cambiar a 
+todos los que se llamen igual. */
+
+
+body {
+    /* poner imagen de fondo*/
+    /* background-image: url('/imagenes/gatito-hello.gif'); */
+    background-color: whitesmoke;
+    font-family: "Gill Sans", sans-serif;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+
+    padding: 10px 32px 16px 32px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+/* Selector de clase:
+
+Nosotras vamos a elegir el nombre de la clase,
+Y se la vamos a poner a las etiquetas por medio del atributo
+class="nombre-clase"
+
+Y le voy a cambiar las propiedades a ese elemento
+llamandolos por el operador(simbolo) punto.
+
+*/
+
+
+.mascota {
+    margin: 16px;
+    padding: 16px;
+    border: 50px solid #000;
+    width: 200px;
+    height: auto;
+}
+
+.texto-centrado {
+    text-align: center;
+}
+
+.texto-justificado {
+    text-align: justify;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/* Selector de ID
+
+Selector de ID me ayudará a editar un elemento a la vez,
+Es para cuando solo queremos hacer cambios a un elemento.
+
+Va a cambiar la etiqueta con el atributo
+
+id="nombre-id"
+
+Y vamos a llamar al elemento por
+el operador de numeral
+
+#nombre-id
+
+*/
+
+#logo {
+    width: 150px;
+    text-align: center;
+}
+
+#navegacion {
+    display: inline;
+}
+
+
+/* Selector combinado 
+
+aquí podemos filtrar por más de una opción
+*/
+
+#navegacion li {
+    display: inline;
+}

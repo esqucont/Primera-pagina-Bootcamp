@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="https://tecnolochicas.mx/" target="_blank">
+            <img id="logo" src="https://tecnolochicas.mx/public/images/tecnolochicas-logo.png"
+                alt="logo technolochicas">
+        </a>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <form>
+            <div>
+                <p>
+                    <label for="nombre">Nombre Completo:</label>
+                    <input minlength="4" maxlength="8" size="40" id="nombre" name="nombre" placeholder="Maria De La Luz"required type="text">
+                </p>
+                <p>
+                    <label for="email">Correo Electrónico:</label>
+                    <input id="email" type="email">
+                </p>
+                <p>
+                    <label for="fechadenacimiento"> Fecha de Nacimiento:</label>
+                    <input type="date">
+                    <input type="datetime-local">
+                </p>
+                <p>
+                    <label for="color">Color Favorito:</label>
+                    <input type="color">
+                </p>
+                <p>
+                    <label for="estado_civil">Estado Civil:</label>
+                    <label for="soltero">Soltero(a)</label>
+                    <input type="checkbox">
+                    <label for="casado">Casado</label>
+                    <input type="checkbox">
+                    <label for="viudo">Viudo</label>
+                    <input type="checkbox">
+                </p>
+                <p>
+                    <label for="foto">Foto:</label>
+                    <input type="file">
+                </p>
+                <p>
+                    <label for="mesf">Mes Favorito:</label>
+                    <input type="month">
+                </p>
+                <p>
+                    <label for="numerofav">Numero Favorito:</label>
+                    <input type="number">
+                </p>
+                <p>
+                    <label for="horaf">Hora Favorita</label>
+                    <input type="time">
+                </p>
+            </div>
+
+            <div>
+                <label for="fav_len">Lenguaje favorito</label>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">HTML</label>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">CSS</label>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">JavaScript</label>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <h5>Hecho por Daniela <b>Technolochicas PRO</b></h5>
+        <h6>
+            <a href="index.html">Página principal</a>
+        </h6>
+    </footer>
+</body>
+
+</html>
